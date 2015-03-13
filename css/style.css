@@ -209,6 +209,19 @@ a.btn:hover {
 .nav {
   background-color: #0a3151;
 }
+
+.fix-nav {
+    opacity:0;
+    transition:all 0.5s ease-out 0s;
+}
+.fix-header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:100;
+  
+}
 .main-menu {
   margin: 0;
   position:relative;
@@ -594,6 +607,7 @@ a.btn:hover {
 }
 .kitchen-rel {
   margin: 5px 0;
+  overflow:hidden;
 }
 .kitchen-rel > div {
   padding: 5px;
